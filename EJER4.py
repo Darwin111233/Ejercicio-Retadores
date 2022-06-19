@@ -6,7 +6,7 @@ N_cajas_Ven= int(input("Numero de cajas a vender: "))
 Id_producto = int(input("Ingrese el Id del producto de las cajas: "))
 
 if(Id_producto==1 ):
-  productos =["Maiz"]
+  productos =["Maiz Grano"]
   print ("El producto es: ",productos[0])
   if(N_cajas_Ven<=100):
     Resultado_M = N_cajas_Ven * 285.55 + 1500
@@ -25,7 +25,7 @@ if(Id_producto==2):
     Resultado_P100=N_cajas_Ven * 334.72
     print("El costo total a pagar es: ",Resultado_P100)
     if(Id_producto==3):
-      productos =["Tomate_v"]
+      productos =["Tomate verde"]
       print("El producto es: ",productos[0])
       if(N_cajas_Ven<=100):
         Resultado_Tv= N_cajas_Ven * 129.00 + 1500
